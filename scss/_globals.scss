@@ -1,0 +1,32 @@
+%menu {
+	width: 50%;
+	> ul li {
+		list-style:none;
+		display:inline-block;
+		margin: $margin;
+	}
+}
+
+
+a {
+	color:white;
+	text-decoration:none;
+}
+
+h1 {
+	@include hero($fontsize);
+	color: complement($color);
+	margin:$margin;
+}
+
+
+body {
+	background-color:$color;
+	color: white;
+	font-family: $font;
+	font-size: 20px;
+}
+
+nav {
+	@extend %menu;
+}

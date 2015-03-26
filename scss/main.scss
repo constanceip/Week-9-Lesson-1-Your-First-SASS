@@ -1,0 +1,19 @@
+//reset CSS
+@import "_reset.scss";
+
+//defining
+@import "variables";
+@import "mixins";
+
+//global styles
+@import "globals";
+
+//pages
+@import "../pages/about";
+
+
+
+.hero > img {
+	width:8%;
+	margin-left:10%;
+}
